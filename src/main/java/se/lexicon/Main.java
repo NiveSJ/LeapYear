@@ -2,16 +2,28 @@ package se.lexicon;
 
 import java.util.Scanner;
 
+/* java 8 New feature:
+
+import java.time.LocalDate;
+
+has isLeapYear() to check leap year
+*/
+
+
 public class Main {
     public static void main(String[] args) {
 
-        double year=0.0;
+        int year=0;
         String display="";
 
 
         System.out.println("Enter a year to check whether it is leap year ");
         Scanner YearInput= new Scanner(System.in);
         year = YearInput.nextInt();
+
+
+
+
 
 
        if (year % 4 != 0.0){
