@@ -13,8 +13,8 @@ has isLeapYear() to check leap year
 public class Main {
     public static void main(String[] args) {
 
-        int year=0;
-        String display="";
+        int year;
+        String display;
 
 
         System.out.println("Enter a year to check whether it is leap year ");
